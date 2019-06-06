@@ -5,9 +5,16 @@ body {font-size: 112.15%; background: url('/images/botanical-garden.jpg') no-rep
 .topBar .tBitem {margin-left: 1.5rem;}
 .barIcon {color: rgba(255,255,255,1); font-size:1.8rem}
 
-.mainBar {font-weight: 700; background: rgba(37, 53, 38, 0.8); text-transform: uppercase;}
+.mainBar, #objetive {background: rgba(37, 53, 38, 0.8); }
+.mainBar {font-weight: 700; text-transform: uppercase;} 
+#objetive {font-weight: 300; font-size: 1.5rem; line-height: 1.8rem; text-align: center; color: #FFF; padding: 25px 0;}
 .navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,.8);}
 .navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}
+
+#hero {padding: 10rem 0; color: #FFF; text-align: center;}
+#hero h1 {font-weight: 700; font-size: 4.5rem; text-shadow: 2px 2px 4px #333; }
+#hero h2 {font-weight: 300; font-size: 2rem; text-shadow: 1px 1px 2px #111; }
+#hero hr {border-top: 1px solid #FFF; margin: 50px auto; width: 50%; max-width: 450px;}
 
 #exp {background: #FFF;}
 #exp h2 {text-align: center;}
@@ -16,4 +23,16 @@ body {font-size: 112.15%; background: url('/images/botanical-garden.jpg') no-rep
 .expItem h1 {font-size: 2.1rem}
 .expItem h1 {font-weight: 300; font-size: 2.1rem}
 
+#map {background: url(/images/costa-rica-nature.jpg) no-repeat center center fixed; overflow: hidden; background-size:cover; color: #FFF;}
+#map h2 {font-size: 1.4rem; font-weight: 700;}
+#map h3 {font-size: 1rem; font-weight:700; margin: 0; }
+#map p {font-size: 1rem; line-height: 1.2rem;}
+
+#footer {background: #000; color: #FFF;}
+#footerMenu, #copy {text-align: center; font-weight: 700;}
+#footerMenu a {color: #FFF; margin: 0px 10px; }
+
 .fixedWidth {margin: 0 auto; width: 100%; max-width: 1250px;}
+.ptpb {padding: 5rem 0;}
+
+
