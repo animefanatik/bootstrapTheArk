@@ -1,6 +1,6 @@
 body {font-size: 112.15%;}
 
-#header {background: url('/images/costa-rica-nature.jpg') no-repeat center center fixed; background-size: cover;}
+#header {background: url('/theark/web/images/costa-rica-nature.jpg') no-repeat center center fixed; background-size: cover;}
 
 .topBar {background: #000; color: #FFF; text-align: right; padding: 5px 0;}
 .topBar > div {width: 90%;}
@@ -12,6 +12,8 @@ body {font-size: 112.15%;}
 .mainBar {text-transform: uppercase;} 
 .navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,.8);}
 .navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}
+
+.fixedbar {position: fixed; top: 0; width: 100%; background-color: rgb(37, 53, 38, 1);}
 
 #content {background: #FFF;}
 #content a {color:#458145; text-decoration: none;}
@@ -64,6 +66,7 @@ hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;
 @media screen and (max-width:582px) {
     .topBar > div {flex-direction: column !important; text-align: center; padding: 10px 0 25px 0;}
     .topBar .tBitem {margin: 10px; }
+    .navbar-brand img { width: 95px;}
     #footerTop {flex-direction: column; text-align: center;}
     #footerTop > div {margin-bottom: 25px;}
     #footerTop h1, #footerTop h2 {color: #FFF;}
@@ -77,9 +80,6 @@ hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;
     .fixedWidth {width: 95%;}
 }
 
-@media screen and (max-width:360px) {
-    .fixedWidth {padding: 0; }
-}
 
 @media (min-width: 1150px) {
     .navbar-expand-custom {flex-direction: row; flex-wrap: nowrap; justify-content: flex-start;}

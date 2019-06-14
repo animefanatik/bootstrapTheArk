@@ -26,6 +26,3 @@ var waypoint = new Waypoint({
     },
     offset: '100%',
 })
-
- 
-  
