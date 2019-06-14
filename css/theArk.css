@@ -23,10 +23,11 @@ body {font-size: 112.15%; background: url('/images/botanical-garden.jpg') no-rep
 #exp {background: #FFF; text-align: center;}
 #exp h1 {font-size:1.6rem; color:#669966;}
 #expAll {margin-top: 5rem; }
-.expItem {max-width: 375px; padding: 10px; text-decoration: none; color: #333; margin-bottom: 50px; font-weight: 300; word-spacing: -0.1rem; font-size:0.98rem; }
+.expItem {max-width: 375px; padding: 10px; text-decoration: none; color: #333; margin-bottom: 50px; font-weight: 300; word-spacing: -0.1rem; font-size:0.98rem; opacity: 0; }
 .expItem h2 {font-weight: 300; font-size: 2.1rem; margin: 1.8rem}
 .expItem:hover {text-decoration: none; color: #333; cursor: pointer; background: rgba(214, 214, 214, 0.2) }
 .expItem img {flex-shrink: 0;} 
+.expRes {opacity: 0;}
 #exp .btn {background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; }
 #exp .btn:hover {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
 
@@ -109,3 +110,25 @@ hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;
     .navbar-expand-custom .navbar-collapse {display: flex!important;}
     .navbar-expand-custom .navbar-toggler {display: none;}
 }
+
+
+.animated {animation-fill-mode: both;}
+
+@keyframes fadeIn {
+    from {opacity: 0; }
+    to {opacity: 1;}
+  }
+.fadeIn {animation-name: fadeIn; animation-duration: 2s !important; animation-delay: 0s;}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .fadeInUp {animation-name: fadeInUp; animation-duration: 1s !important;}
