@@ -15,42 +15,42 @@
             <div id="expAll" class="d-flex justify-content-around flex-wrap fixedWidth">
                 <a href="#" class="expItem" >
                     <article class="d-flex flex-column">
-                        <img src="/theark/web/images/caminatas-libres.jpg" alt="imagen">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/caminatas-libres.jpg" alt="imagen">
                         <h2>Caminatas Libres</h2>
                         <p>Disfrute de aire libre y el sonido de las aves, mientras se deleita observando las diferentes especies de plantas que tenemos en exhibición.</p>
                     </article>
                 </a>
                 <a href="#" class="expItem" >
                     <article class="d-flex flex-column">
-                        <img src="/theark/web/images/tours-guiados.jpg" alt="imagen">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/tours-guiados.jpg" alt="imagen">
                         <h2>Tours Guiados</h2>
                         <p>Adquiere conocimiento junto a expertos que compartirán su conocimiento sobre el maravilloso mundo de las plantas.</p>
                     </article>
                 </a>
                 <a href="" class="expItem" >
                     <article class="d-flex flex-column">
-                        <img src="/theark/web/images/terrazas-tematicas.jpg" alt="imagen">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/terrazas-tematicas.jpg" alt="imagen">
                         <h2>Terrazas Temáticas</h2>
                         <p>Terrazas educativas, según su uso productivo: medicinal, culinario, alimentos tropicales, aceites esenciales, colorantes naturales.</p>
                     </article>
                 </a>
                 <a href="" class="expItem" >
                     <article class="d-flex flex-column">
-                        <img src="/theark/web/images/casa-arbol.jpg" alt="imagen">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/casa-arbol.jpg" alt="imagen">
                         <h2>Casa del Árbol</h2>
                         <p>Conectese a la naturaleza, disfrute del jardín botánico y la increíble vista. Esta es una excelente opción de relajamiento.</p>
                     </article>
                 </a>
                 <a href="" class="expItem" >
                     <article class="d-flex flex-column">
-                        <img src="/theark/web/images/cursos-libres.jpg" alt="imagen">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/cursos-libres.jpg" alt="imagen">
                         <h2>Cursos Libres</h2>
                         <p>Aprenda a cuidar y a sacar provecho de la flora. Ingrese y conozca nuestra agenda de cursos libres, impartidos por expertos.</p>
                     </article>
                 </a>
                 <a href="" class="expItem" >
                     <article class="d-flex flex-column">
-                        <img src="/theark/web/images/jardines-viveros.jpg" alt="imagen">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/jardines-viveros.jpg" alt="imagen">
                         <h2>Jardines y Viveros</h2>
                         <p>Más de 1,600 especies de plantas medicinales, ornamentales y frutos de todas partes del mundo, distribuidas a través de la propiedad.</p>
                     </article>
