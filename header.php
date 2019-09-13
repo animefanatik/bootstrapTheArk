@@ -9,7 +9,11 @@
     <?php wp_head(); ?>
     <link href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" rel="stylesheet" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<?php if ( is_front_page() && is_home() ) { ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/theArk.css">
+<?php } else { ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/internal.css">
+<?php } ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
 </head>
 <body>
