@@ -17,14 +17,14 @@
                     <article class="d-flex flex-column">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/caminatas-libres.jpg" alt="imagen">
                         <h2>Caminatas Libres</h2>
-                        <p>Disfrute de aire libre y el sonido de las aves, mientras se deleita observando las diferentes especies de plantas que tenemos en exhibición.</p>
+                        <p>Se disfruta al aire libre, con la brisa fresca y el sonido de las aves mientras se deleita observando las especies de plantas que tenemos en exhibición.</p>
                     </article>
                 </a>
                 <a href="#" class="expItem" >
                     <article class="d-flex flex-column">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/tours-guiados.jpg" alt="imagen">
                         <h2>Tours Guiados</h2>
-                        <p>Adquiere conocimiento junto a expertos que compartirán su conocimiento sobre el maravilloso mundo de las plantas.</p>
+                        <p>Un viaje por el maravilloso mundo de las plantas, de la mano de nuestros guías expertos.</p>
                     </article>
                 </a>
                 <a href="" class="expItem" >
