@@ -1,4 +1,4 @@
-
+<?php get_header(); ?>
     <div id="main">
         <div id="hero" class="fixedWidth animated fadeIn">
             <h1 class="fw7">JARDÍN BÓTANICO</h1>
@@ -79,3 +79,4 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.70010711497!2d-84.1716206846391!3d10.041586992822634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f0bca5a498c7%3A0x83fc6d9c2de36ffc!2sThe+Ark+Herb+Farm!5e0!3m2!1sen!2scr!4v1559758055940!5m2!1sen!2scr" width="600" height="450" style="border:0" class="col" allowfullscreen></iframe>
             </div>
         </div>
+<?php get_footer(); ?>

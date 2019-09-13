@@ -1,4 +1,4 @@
-body {font-size: 112.15%; background: url('/theark/web/images/botanical-garden.jpg') no-repeat center center fixed; background-size: cover;}
+body {font-size: 112.15%; background: url('../images/botanical-garden.jpg') no-repeat center center fixed; background-size: cover;}
 
 .topBar {background: #000; color: #FFF; text-align: right; padding: 5px 0;}
 .topBar > div {width: 90%;}
@@ -31,7 +31,7 @@ body {font-size: 112.15%; background: url('/theark/web/images/botanical-garden.j
 #exp .btn {background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; }
 #exp .btn:hover {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
 
-#map {background: url(/theark/web/images/costa-rica-nature.jpg) no-repeat center center fixed; overflow: hidden; background-size:cover; color: #FFF;}
+#map {background: url(../images/costa-rica-nature.jpg) no-repeat center center fixed; overflow: hidden; background-size:cover; color: #FFF;}
 #map h2 {font-size: 1.4rem;}
 #map h3 {font-size: 1rem; font-weight:700; margin: 0; }
 #map p {font-size: 1rem; line-height: 1.2rem;}
