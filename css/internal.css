@@ -8,7 +8,7 @@ body {font-size: 112.15%;}
 .topBar .tBitem {margin-left: 1.5rem;}
 .barIcon {color: rgba(255,255,255,1); font-size:1.8rem}
 
-.mainBar, #objetive {background: rgba(37, 53, 38, 0.4); }
+.mainBar {background: rgba(37, 53, 38, 1); }
 .mainBar {text-transform: uppercase;} 
 .navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,.8);}
 .navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}

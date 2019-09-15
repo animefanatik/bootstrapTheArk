@@ -2,8 +2,8 @@
         <div id="footerTop" class="fixedWidth d-flex justify-content-between align-items-top row">
             <div class="col-6">
                 <h1>The Ark Green Foundation</h1>
-                <p>Hace 30 años nació el jardín familiar de Tommy y Patricia, quienes amaban recolectar plantas y aprender sobre ellas. Con el tiempo, su colección creció y se convirtió en un lugar de atractivo turístico y académico.</p>
-                <p>Hoy su objetivo es crear un espacio para fomentar la educación ecológica y la conservación, convirtiendo las 8 hectáreas de la finca en una Fundación de Jardín Botánico para donar a su país adoptivo, Costa Rica.</p>
+                <p>Hace 30 años nació el jardín familiar de Tommy Thomas y Patricia Riley, quienes amaban recolectar plantas y aprender sobre ellas. Con el tiempo, su colección en el jardín creció hasta tener cientos de especies y ser un lugar de atractivo turístico y referente académico para instituciones de educación pública y privada.</p>
+                <p>Hoy Tommy Thomas ha creado un espacio para fomentar la educación ecológica y la conservación, convirtiendo 8 hectáreas de la finca en una Fundación de Jardín Botánico para donar a su país adoptivo, Costa Rica.</p>
             </div>
             <div class="col">
                 <h2>Terrazas Temáticas</h2>

@@ -12,6 +12,7 @@
         </div>
         <div id="exp" class="ptpb">
             <h1 class="text-uppercase fw7">Experiencias únicas para activar todos tus sentidos</h1>
+            <p>Cada experiencia es única. Se activarán todos los sentidos de los visitantes, permitiéndoles conectarse con la naturaleza y restaurar su armonía.</p>
             <div id="expAll" class="d-flex justify-content-around flex-wrap fixedWidth">
                 <a href="#" class="expItem" >
                     <article class="d-flex flex-column">
@@ -62,7 +63,7 @@
             <div class="fixedWidth d-flex align-items-center row">
                 <article class="col">
                     <h2 class="fw7">¿Como llegar?</h2>
-                    <p>A tan solo 30 minutos de la capital, le compartimos las diferentes rutas que puede tomar para visitarnos.</p>
+                    <p>Estamos ubicados a tan solo 25 minutos de la capital. Aquí le compartimos las diferentes rutas que puede tomar para visitarnos:</p>
                     <div>
                         <h3>Desde el Aeropuerto Juan Santamaría:</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi posuere placerat tincidunt. Aliquam rhoncus luctus leo, in accumsan enim volutpat et. Donec vestibulum euismod felis, ut pulvinar elit dignissim ac.</p>

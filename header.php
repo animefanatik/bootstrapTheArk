@@ -35,8 +35,8 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-around" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav justify-content-around w-100">
                             <li class="nav-item active">
                                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                             </li>
