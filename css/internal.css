@@ -33,8 +33,8 @@ h3 {font-size:1.2rem; font-weight: 700;}
 #footerMenu a {margin: 0px 10px;}
 #footerMenu a:hover {text-decoration: underline;}
 
-.archCont {display: flex; flex-direction: row; margin-bottom: 25px;}
-.archCont img {border: 5px solid rgb(240, 240, 240); margin-right: 25px; }
+.archCont {display: flex; flex-direction: row; margin-bottom: 30px;}
+.archCont img {border: 5px solid rgb(240, 240, 240); width: 200px; height: auto; margin-right: 25px; }
 .archInfo {display: flex; flex-direction: column;}
 .archHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966;}
 
