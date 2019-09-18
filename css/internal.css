@@ -1,6 +1,6 @@
 body {font-size: 112.15%;}
 
-#header {background: url('/theark/web/images/costa-rica-nature.jpg') no-repeat center center fixed; background-size: cover;}
+#header {background: url('../images/costa-rica-nature.jpg') no-repeat center center fixed; background-size: cover;}
 
 .topBar {background: #000; color: #FFF; text-align: right; padding: 5px 0;}
 .topBar > div {width: 90%;}
@@ -8,7 +8,7 @@ body {font-size: 112.15%;}
 .topBar .tBitem {margin-left: 1.5rem;}
 .barIcon {color: rgba(255,255,255,1); font-size:1.8rem}
 
-.mainBar {background: rgba(37, 53, 38, 1); }
+.mainBar {background: rgba(37, 53, 38, 0.3); }
 .mainBar {text-transform: uppercase;} 
 .navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,.8);}
 .navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}
@@ -18,10 +18,12 @@ body {font-size: 112.15%;}
 #content {background: #FFF;}
 #content a {color:#458145; text-decoration: none;}
 #content a:hover {color:#104610; text-decoration: underline;}
-#content h1 {font-size:1.6rem; color:#669966; margin: 0 0 2rem;}
+h1 {font-size:1.75rem; color:#669966; margin-bottom:2rem;}
+h2 {font-size:1.5rem; margin-bottom: 1.5rem;}
+h3 {font-size:1.2rem; font-weight: 700;}
+
 #content .btn {background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; }
 #content .btn:hover {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
-#content img {padding: 10px; background: rgb(240, 240, 240);}
 
 #footer {background: #000; color: #ccc; font-size: 1rem; margin-bottom: 0px !important; }
 #footer a {color: #ccc;}
@@ -31,18 +33,24 @@ body {font-size: 112.15%;}
 #footerMenu a {margin: 0px 10px;}
 #footerMenu a:hover {text-decoration: underline;}
 
+.archCont {display: flex; flex-direction: row; margin-bottom: 25px;}
+.archCont img {border: 5px solid rgb(240, 240, 240); margin-right: 25px; }
+.archInfo {display: flex; flex-direction: column;}
+.archHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966;}
+
 /* Estilos Compartidos */
+.contenedor img {padding: 10px; background: rgb(240, 240, 240);}
 hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;}
 .fixedWidth {margin: 0 auto; width: 90%; max-width: 1250px; padding: 0 20px;}
 .ptpb {padding: 5rem 0;}
 .fw3 {font-weight: 300;}
 .fw4 {font-weight: 400;}
 .fw7 {font-weight: 700;}
-.navbar-dark .navbar-toggler {
-    color: rgba(255,255,255,.9);
-    border-color: rgba(255,255,255,.9);
-}
+.navbar-dark .navbar-toggler {color: rgba(255,255,255,.9); border-color: rgba(255,255,255,.9);}
 .aligncenter {display:block; margin: 10px auto; width: 95%; }
+.leerMas {display: block; width: 65px; height: 19px; background: url('../images/leermas.png') no-repeat top left; }
+.leerMas:hover, .leerMas:active {background-position-y: -19px;}
+
 
 .navbar-dark .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");

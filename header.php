@@ -14,7 +14,6 @@
 <?php } else { ?>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/internal.css">
 <?php } ?>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet"> 
 </head>
 <body>
     <div id="header">
@@ -38,25 +37,19 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav justify-content-around w-100">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="/">Inicio <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">experiencias</a>
+                                <a class="nav-link" href="/experiencias">experiencias</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">coleccion botánica</a>
+                                <a class="nav-link" href="/actividades">actividades</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">actividades</a>
+                                <a class="nav-link" href="/contacto">contacto</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">contacto</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">booking</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">quienes somos</a>
+                                <a class="nav-link" href="/quienes-somos">quienes somos</a>
                             </li>
                         </ul>
                     </div>
