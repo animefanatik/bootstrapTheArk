@@ -1,7 +1,5 @@
 <article class="archCont">
     
-    <?php if ( have_posts() ) : the_post(); ?>
-
         <a href="<?php the_permalink(); ?>">
             <?php the_post_thumbnail('thumbnail', [ 'alt' => esc_html ( get_the_title() ) ] );?>
         </a>
@@ -12,9 +10,6 @@
         </div>
 
 
-    <?php else : ?>
-    <p><?php _e('Ups!, esta entrada no existe.'); ?></p>
-    <?php endif; ?>
 
 </article>
 

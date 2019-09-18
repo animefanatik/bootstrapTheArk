@@ -13,7 +13,7 @@
         <div id="exp" class="ptpb">
             <h1 class="text-uppercase fw7">Experiencias únicas para activar todos tus sentidos</h1>
             <p>Cada experiencia es única. Se activarán todos los sentidos de los visitantes, permitiéndoles conectarse con la naturaleza y restaurar su armonía.</p>
-            <div id="expAll" class="d-flex justify-content-evenly flex-wrap fixedWidth">
+            <div id="expAll" class="d-flex justify-content-around flex-wrap fixedWidth">
                 <a href="#" class="expItem" >
                     <article class="d-flex flex-column">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/caminatas-libres.jpg" alt="imagen">

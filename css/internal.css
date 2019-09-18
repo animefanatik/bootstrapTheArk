@@ -2,6 +2,21 @@ body {font-size: 112.15%;}
 
 #header {background: url('../images/costa-rica-nature.jpg') no-repeat center center fixed; background-size: cover;}
 
+/* Estilos Compartidos */
+.contenedor img {padding: 10px; background: rgb(240, 240, 240);}
+hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;}
+.fixedWidth {margin: 0 auto; width: 90%; max-width: 1250px; padding: 0 20px;}
+.ptpb {padding: 5rem 0;}
+.fw3 {font-weight: 300;}
+.fw4 {font-weight: 400;}
+.fw7 {font-weight: 700;}
+.navbar-dark .navbar-toggler {color: rgba(255,255,255,.9); border-color: rgba(255,255,255,.9);}
+.aligncenter {display:block; margin: 10px auto; width: 95%; }
+.leerMas {display: block; width: 65px; height: 19px; background: url('../images/leermas.png') no-repeat top left; }
+.leerMas:hover, .leerMas:active {background-position-y: -19px;}
+.btn-link {text-decoration: none; color: #FFF; border: 2px solid #FFF; font-size: 1rem; border-radius: 12px; text-shadow: 1px 1px 1px #111; box-shadow: 2px 2px 4px #666; padding: 10px 45px; cursor: pointer;}
+
+
 .topBar {background: #000; color: #FFF; text-align: right; padding: 5px 0;}
 .topBar > div {width: 90%;}
 .topBar .text-uppercase {font-size: 0.9rem; line-height: 1.2rem;}
@@ -16,14 +31,11 @@ body {font-size: 112.15%;}
 .fixedbar {position: fixed; top: 0; width: 100%; background-color: rgb(37, 53, 38, 1);}
 
 #content {background: #FFF;}
-#content a {color:#458145; text-decoration: none;}
-#content a:hover {color:#104610; text-decoration: underline;}
+.texto a {color:#458145; text-decoration: none;}
+.texto a:hover {color:#104610; text-decoration: underline;}
 h1 {font-size:1.75rem; color:#669966; margin-bottom:2rem;}
 h2 {font-size:1.5rem; margin-bottom: 1.5rem;}
 h3 {font-size:1.2rem; font-weight: 700;}
-
-#content .btn {background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; }
-#content .btn:hover {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
 
 #footer {background: #000; color: #ccc; font-size: 1rem; margin-bottom: 0px !important; }
 #footer a {color: #ccc;}
@@ -34,22 +46,17 @@ h3 {font-size:1.2rem; font-weight: 700;}
 #footerMenu a:hover {text-decoration: underline;}
 
 .archCont {display: flex; flex-direction: row; margin-bottom: 30px;}
-.archCont img {border: 5px solid rgb(240, 240, 240); width: 200px; height: auto; margin-right: 25px; }
+.archCont img {border: 5px solid rgb(240, 240, 240); width: 200px; height: 240px; margin-right: 25px; }
 .archInfo {display: flex; flex-direction: column;}
 .archHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966;}
 
-/* Estilos Compartidos */
-.contenedor img {padding: 10px; background: rgb(240, 240, 240);}
-hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;}
-.fixedWidth {margin: 0 auto; width: 90%; max-width: 1250px; padding: 0 20px;}
-.ptpb {padding: 5rem 0;}
-.fw3 {font-weight: 300;}
-.fw4 {font-weight: 400;}
-.fw7 {font-weight: 700;}
-.navbar-dark .navbar-toggler {color: rgba(255,255,255,.9); border-color: rgba(255,255,255,.9);}
-.aligncenter {display:block; margin: 10px auto; width: 95%; }
-.leerMas {display: block; width: 65px; height: 19px; background: url('../images/leermas.png') no-repeat top left; }
-.leerMas:hover, .leerMas:active {background-position-y: -19px;}
+.expCont {display: flex; flex-direction: column; margin: 50px 30px; text-align: center; width: 25%;}
+.expCont img {border: 5px solid rgb(240, 240, 240); margin-bottom: 25px; width: 100%; height: auto; }
+.expInfo {display: flex; flex-direction: column;}
+.expInfo p {min-height: 110px;}
+.expHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966;}
+.bookExp {margin: 0 auto; background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; text-transform: uppercase; }
+.bookExp:hover, .bookExp:active {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
 
 
 .navbar-dark .navbar-toggler-icon {

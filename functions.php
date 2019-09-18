@@ -45,6 +45,15 @@ function theark_widgets_init() {
 }
 add_action( 'widgets_init', 'theark_widgets_init' );
 
+/* Remove Category from Title */
+function prefix_category_title( $title ) {
+    if ( is_category() ) {
+        $title = single_cat_title( '', false );
+    }
+    return $title;
+}
+add_filter( 'get_the_archive_title', 'prefix_category_title' );
+
 /* woocommerce theme */
 
 function mytheme_add_woocommerce_support() {
