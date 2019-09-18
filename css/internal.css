@@ -25,14 +25,15 @@ hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;
 
 .mainBar {background: rgba(37, 53, 38, 0.3); }
 .mainBar {text-transform: uppercase;} 
-.navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,.8);}
-.navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,1);}
+.navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,1);}
+.navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,0.8);}
 
 .fixedbar {position: fixed; top: 0; width: 100%; background-color: rgb(37, 53, 38, 1);}
 
 #content {background: #FFF;}
 .texto a {color:#458145; text-decoration: none;}
 .texto a:hover {color:#104610; text-decoration: underline;}
+.texto a.bookMe {color: #000; margin: 35px auto;}
 h1 {font-size:1.75rem; color:#669966; margin-bottom:2rem;}
 h2 {font-size:1.5rem; margin-bottom: 1.5rem;}
 h3 {font-size:1.2rem; font-weight: 700;}
@@ -48,13 +49,13 @@ h3 {font-size:1.2rem; font-weight: 700;}
 .archCont {display: flex; flex-direction: row; margin-bottom: 30px;}
 .archCont img {border: 5px solid rgb(240, 240, 240); width: 200px; height: 240px; margin-right: 25px; }
 .archInfo {display: flex; flex-direction: column;}
-.archHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966;}
+.archHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966; text-transform: capitalize;}
 
 .expCont {display: flex; flex-direction: column; margin: 50px 30px; text-align: center; width: 25%;}
 .expCont img {border: 5px solid rgb(240, 240, 240); margin-bottom: 25px; width: 100%; height: auto; }
 .expInfo {display: flex; flex-direction: column;}
 .expInfo p {min-height: 110px;}
-.expHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966;}
+.expHead {font-size: 1.2rem; margin-bottom: 10px; color:#669966; text-transform: capitalize;}
 .bookExp {margin: 0 auto; background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; text-transform: uppercase; }
 .bookExp:hover, .bookExp:active {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
 

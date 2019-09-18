@@ -46,6 +46,9 @@
                                 <a class="nav-link" href="/actividades">actividades</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="/cursos-libres">Cursos Libres</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="/contacto">contacto</a>
                             </li>
                             <li class="nav-item">

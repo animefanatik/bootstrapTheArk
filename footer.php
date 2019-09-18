@@ -34,6 +34,7 @@
             <a class="nav-link" href="/">inicio</a>
             <a class="nav-link" href="/experiencias">experiencias</a>
             <a class="nav-link" href="/actividades">actividades</a>
+            <a class="nav-link" href="/cursos-libres">cursos libres</a>
             <a class="nav-link" href="/contacto">contacto</a>
             <a class="nav-link" href="/quienes-somos">quienes somos</a>
         </div>
