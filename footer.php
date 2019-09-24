@@ -28,8 +28,8 @@
                 </ul>
             </div>
         </div>
-    -->
         <hr>
+    -->
         <div id="footerMenu" class="fixedWidth d-flex justify-content-around fw7">
             <a class="nav-link" href="/">inicio</a>
             <a class="nav-link" href="/experiencias">experiencias</a>

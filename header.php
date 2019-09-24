@@ -20,7 +20,7 @@
         <div class="topBar">
             <div class="fixedWidth d-flex flex-row-reverse align-items-center;">
                 <div>
-                    <a href="" class="tBitem barIcon"><i class="fas fa-map-marked-alt"></i></a>
+                    <a href="https://goo.gl/maps/Cs5z8kNoDQDyF2Ho6" class="tBitem barIcon" target="_blank"><i class="fas fa-map-marked-alt"></i></a>
                     <a href="" class="tBitem barIcon"><i class="fab fa-instagram"></i></a>
                     <a href="" class="tBitem barIcon"><i class="fab fa-facebook-square"></i></a>
                 </div>
@@ -30,7 +30,7 @@
         <div class="mainBar fw7">
             <div class="fixedWidth">                
                 <nav class="navbar navbar-expand-custom navbar-dark ">
-                    <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="jardin botanico el arca"></a>
+                    <a class="navbar-brand" href="/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="jardin botanico el arca"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
