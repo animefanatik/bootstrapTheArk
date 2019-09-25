@@ -33,7 +33,7 @@ while($new_query -> have_posts()) : $new_query -> the_post();
         <div id="map" class="ptpb">
             <div class="fixedWidth d-flex align-items-center row">
                 <article class="col">
-                    <h2 class="fw7">¿Como llegar?</h2>
+                    <h2 class="fw7">¿Cómo llegar?</h2>
                     <p>Estamos ubicados a tan solo 30 minutos de la capital. Aquí le compartimos las diferentes rutas que puede tomar para visitarnos:</p>
                     <div>
                         <h3>Desde el centro de San José:</h3>
