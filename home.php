@@ -1,7 +1,7 @@
 <?php get_header(); ?>
     <div id="main">
         <div id="hero" class="fixedWidth animated fadeIn">
-            <h1 class="fw7">JARDÍN BÓTANICO</h1>
+            <h1 class="fw7">JARDÍN BOTÁNICO</h1>
             <hr>
             <h2 class="fw3">Un lugar mágico, rodeado de naturaleza, a pocos minutos de la ciudad.</h2>
             
