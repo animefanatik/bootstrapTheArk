@@ -5,6 +5,7 @@ body {font-size: 112.15%; background: url('../images/botanical-garden.jpg') no-r
 .topBar .text-uppercase {font-size: 0.9rem; line-height: 1.2rem;}
 .topBar .tBitem {margin-left: 1.5rem;}
 .barIcon {color: rgba(255,255,255,1); font-size:1.8rem}
+.barIcon img {vertical-align: unset;}
 
 .mainBar, #objetive {background: rgba(37, 53, 38, 0.8); }
 .mainBar {text-transform: uppercase;} 
@@ -23,10 +24,11 @@ body {font-size: 112.15%; background: url('../images/botanical-garden.jpg') no-r
 #exp {background: #FFF; text-align: center;}
 #exp h1 {font-size:1.6rem; color:#669966;}
 #expAll {margin-top: 5rem; }
+#textExperience {width: 95%; margin: 0 auto; max-width: 1200px;}
 .expItem {max-width: 375px; padding: 10px; text-decoration: none; color: #333; margin-bottom: 50px; font-weight: 300; word-spacing: -0.1rem; font-size:0.98rem; opacity: 0; }
 .expItem h2 {font-weight: 300; font-size: 2.1rem; margin: 1.8rem}
 .expItem:hover {text-decoration: none; color: #333; cursor: pointer; background: rgba(214, 214, 214, 0.2) }
-.expItem img {flex-shrink: 0;} 
+.expItem img {flex-shrink: 0; width: 100%; height: 100%;} 
 .expRes {opacity: 0;}
 #exp .btn {background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; }
 #exp .btn:hover {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }

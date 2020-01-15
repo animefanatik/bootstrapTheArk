@@ -9,44 +9,52 @@
             <div class="col">
                 <h2>Terrazas Temáticas</h2>
                 <ul>
-                    <li><a href="#">Terraza Medicinal</a></li>
-                    <li><a href="#">Terraza Culinaria</a></li>
-                    <li><a href="#">Milpa Alimentos Tropicales</a></li>
-                    <li><a href="#">Aceites Esenciales</a></li>
-                    <li><a href="#">Colorantes Naturales</a></li>
+                    <li><a href="#">Medicinal Terrace</a></li>
+                    <li><a href="#">Culinary Terrace</a></li>
+                    <li><a href="#">Tropical Food</a></li>
+                    <li><a href="#">Essential Oils</a></li>
+                    <li><a href="#">Natural Dyes</a></li>
                 </ul>
             </div>
             <div class="col">
                 <h2>Jardines</h2>
                 <ul>
-                    <li><a href="#">Jardín Frutal</a></li>
-                    <li><a href="#">Jardín Sagrado</a></li>
-                    <li><a href="#">Jardín Chino</a></li>
-                    <li><a href="#">Jardín Ayurveda</a></li>
-                    <li><a href="#">Flores Tropicales</a></li>
-                    <li><a href="#">Jardín Botánico</a></li>
+                    <li><a href="#">Fruit Garden</a></li>
+                    <li><a href="#">Sacred Garden</a></li>
+                    <li><a href="#">Chinese Garden</a></li>
+                    <li><a href="#">Ayurveda Garden</a></li>
+                    <li><a href="#">Tropical Flowers</a></li>
+                    <li><a href="#">Botanical Garden</a></li>
                 </ul>
             </div>
         </div>
         <hr>
     -->
         <div id="footerMenu" class="fixedWidth d-flex justify-content-around fw7">
-            <a class="nav-link" href="/">inicio</a>
-            <a class="nav-link" href="/experiencias">experiencias</a>
-            <a class="nav-link" href="/actividades">actividades</a>
-            <a class="nav-link" href="/cursos-libres">cursos libres</a>
-            <a class="nav-link" href="/contacto">contacto</a>
-            <a class="nav-link" href="/quienes-somos">quienes somos</a>
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/experiences">Experiences</a>
+            <a class="nav-link" href="/activities">Activities</a>
+            <a class="nav-link" href="/workshops">Workshops</a>
+            <a class="nav-link" href="/contact">Contact</a>
+            <a class="nav-link" href="/about-us">About us</a>
         </div>
         <div id="copy" class="fw7">© Ark Herb Farm. All rights reserved.</div>
     </div>
     <?php wp_footer(); ?>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
 <?php if ( is_front_page() && is_home() ) { ?>
     <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.waypoints.min.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/js/custom.js"></script>
 <?php } ?>
-    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16071381-7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-16071381-7');
+    </script>
 </body>
 </html>

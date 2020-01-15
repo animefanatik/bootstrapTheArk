@@ -22,6 +22,7 @@ hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;
 .topBar .text-uppercase {font-size: 0.9rem; line-height: 1.2rem;}
 .topBar .tBitem {margin-left: 1.5rem;}
 .barIcon {color: rgba(255,255,255,1); font-size:1.8rem}
+.barIcon img {vertical-align: unset;}
 
 .mainBar {background: rgba(37, 53, 38, 0.3); }
 .mainBar {text-transform: uppercase;} 
