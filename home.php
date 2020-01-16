@@ -23,7 +23,7 @@
 $new_query = new WP_Query(array( 'category_name' => 'experiences' ));
 while($new_query -> have_posts()) : $new_query -> the_post();
 ?>
-                <a href="<?php the_permalink(); ?>" class="expItem" title="<?php the_title(); ?>" >
+                <a href="<?php the_permalink(); ?>" class="expItem" aria-label="<?php the_title(); ?>" >
                     <article class="d-flex flex-column">
                         <?php the_post_thumbnail('medium', [ 'alt' => esc_html ( get_the_title() ) ] );?>
                         <h2><?php the_title(); ?></h2>
@@ -45,11 +45,11 @@ while($new_query -> have_posts()) : $new_query -> the_post();
                     </div>
                     <div>
                         <h3>From Juan Santamaría Airport:</h3>
-                        <p>It is 7.9km until you reach the farm. You can take a taxi service which will take around 20 to 30 minutes taking the route through Calle Sabaneta. Ver en Google Maps: <a href="https://goo.gl/maps/w4gZJ361BaY5r6kKA">https://goo.gl/maps/w4gZJ361BaY5r6kKA</a></p>
+                        <p>It is 7.9km until you reach the farm. You can take a taxi service which will take around 20 to 30 minutes taking the route through Calle Sabaneta. See on Google Maps: <a href="https://goo.gl/maps/w4gZJ361BaY5r6kKA">https://goo.gl/maps/w4gZJ361BaY5r6kKA</a></p>
                     </div>
                     <div>
                         <h3>From the center of Alajuela:</h3>
-                        <p>The journey is 7km, 20 minutes taking the route through Rosales Street towards Sabaneta Street. Ver en Google Maps: <a href="https://goo.gl/maps/K7FX8jTtpgSWsrnn8">https://goo.gl/maps/K7FX8jTtpgSWsrnn8</a></p>
+                        <p>The journey is 7km, 20 minutes taking the route through Rosales Street towards Sabaneta Street. See on Google Maps: <a href="https://goo.gl/maps/K7FX8jTtpgSWsrnn8">https://goo.gl/maps/K7FX8jTtpgSWsrnn8</a></p>
                     </div>
                 </article>
                 <iframe title="costa rica botanical garden" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.70010711497!2d-84.1716206846391!3d10.041586992822634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f0bca5a498c7%3A0x83fc6d9c2de36ffc!2sThe+Ark+Herb+Farm!5e0!3m2!1sen!2scr!4v1559758055940!5m2!1sen!2scr" width="600" height="450" style="border:0" class="col" allowfullscreen></iframe>

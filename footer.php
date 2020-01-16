@@ -1,4 +1,5 @@
-    <div id="footer" class="ptpb">
+    <div id="footer">
+
     <!--
         <div id="footerTop" class="fixedWidth d-flex justify-content-between align-items-top row">
             <div class="col-6">
@@ -30,14 +31,16 @@
         </div>
         <hr>
     -->
-        <div id="footerMenu" class="fixedWidth d-flex justify-content-around fw7">
-            <a class="nav-link" href="/">Home</a>
-            <a class="nav-link" href="/experiences">Experiences</a>
-            <a class="nav-link" href="/activities">Activities</a>
-            <a class="nav-link" href="/workshops">Workshops</a>
-            <a class="nav-link" href="/contact">Contact</a>
-            <a class="nav-link" href="/about-us">About us</a>
+
+        <div class="bottomAddress">
+            <div>
+                <a href="https://goo.gl/maps/Cs5z8kNoDQDyF2Ho6" class="tBitem barIcon" target="_blank" rel=”noopener noreferrer”><img src="<?php echo get_template_directory_uri(); ?>/images/map-icon.png" alt="costa rica garden tour location"></a>
+                <!-- <a href="" class="tBitem barIcon"><img src="<?php // echo get_template_directory_uri(); ?>/images/instagram-icon.png" alt="costa rica tour photos"></a> -->
+                <a href="https://www.facebook.com/thearkherbfarm/" class="tBitem barIcon" target="_blank" rel=”noopener noreferrer”><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png" alt="costa rica tours booking"></a>
+            </div>
+            <div class="tBitem text-uppercase">San Pedro de Santa Bárbara de Heredia<br>(506) 2269-4849 / (506) 2269-9683</div>
         </div>
+
         <div id="copy" class="fw7">© Ark Herb Farm. All rights reserved.</div>
     </div>
     <?php wp_footer(); ?>

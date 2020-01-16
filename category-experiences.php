@@ -19,7 +19,7 @@
                 <?php the_post_thumbnail('medium', [ 'alt' => esc_html ( get_the_title() ) ] );?>
             </a>
             <div class="expInfo">
-                <a href="<?php the_permalink(); ?>"><h2 class="expHead fw7"><?php the_title(); ?></h2></a>
+                <a href="<?php the_permalink(); ?>" aria-label="<?php the_title(); ?>"><h2 class="expHead fw7"><?php the_title(); ?></h2></a>
                 <?php the_excerpt(); ?>
                 <!--<a href="<?php // the_permalink(); ?>" class="bookExp btn-link fw7">Reserve</a> -->
             </div>

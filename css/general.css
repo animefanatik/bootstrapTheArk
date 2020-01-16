@@ -1,0 +1,78 @@
+.topBar {background: #000; color: #FFF; text-align: right; padding: 5px 0;}
+.topBar > div {width: 90%;}
+.topBar .text-uppercase {font-size: 0.9rem; line-height: 1.2rem;}
+.tBitem {margin-left: 1.5rem;}
+.barIcon {color: rgba(255,255,255,1); font-size:1.8rem}
+.barIcon img {vertical-align: unset;}
+
+
+.mainBar {text-transform: uppercase;}
+.navbar-dark .navbar-nav .nav-link {color: rgba(255,255,255,1);}
+.navbar-dark .navbar-nav .nav-link:hover {color: rgba(255,255,255,0.8);}
+.navbar-dark .navbar-toggler {color: rgba(255,255,255,.9); border-color: rgba(255,255,255,.9);}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+hr {border-top: 1px solid #ccc; margin: 50px auto; width: 50%; max-width: 450px;}
+.fixedWidth {margin: 0 auto; width: 90%; max-width: 1250px; padding: 0 20px;}
+.ptpb {padding: 5rem 0;}
+.fw3 {font-weight: 300;}
+.fw4 {font-weight: 400;}
+.fw7 {font-weight: 700;}
+
+.btn-link {text-decoration: none; color: #FFF; border: 2px solid #FFF; font-size: 1rem; border-radius: 12px; text-shadow: 1px 1px 1px #111; box-shadow: 2px 2px 4px #666; padding: 10px 45px; cursor: pointer;}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {position: fixed; top: 0; width: 100%; z-index: 999; background: rgba(37, 53, 38, 0.9);} 
+
+#footer {background: #000; color: #ccc; font-size: 1rem; margin-bottom: 0px !important; padding: 50px; }
+#footer a {color: #ccc;}
+#footer .bottomAddress { text-align: center; color: #FFF;}
+#footerTop h1, #footerTop h2 {font-size: 1rem; font-weight: 700;}
+#footerMenu, #copy {text-align: center; width: 80%; margin: 5rem auto; text-transform: uppercase; font-size:0.8rem; }
+#copy {margin: 25px auto; }
+#footerMenu a {margin: 0px 10px;}
+#footerMenu a:hover {text-decoration: underline;}
+
+
+@media screen and (max-width:1275px) {
+    .mainBar {font-size: 1rem;}
+}
+
+@media screen and (max-width:1231px) {
+    #footerMenu {width: 95%;}
+}
+
+@media screen and (max-width:992px) {
+    #footerMenu {font-size: 1rem; flex-direction: column;}
+    #footerTop .col-6 {max-width: 100% !important; flex: unset !important;}
+}
+
+@media screen and (max-width:582px) {
+    .topBar > div {flex-direction: column !important; text-align: center; padding: 10px 0 25px 0;}
+    .tBitem {margin: 10px; }
+    .navbar-brand img { width: 95px;}
+    #footerTop {flex-direction: column; text-align: center;}
+    #footerTop > div {margin-bottom: 25px;}
+    #footerTop h1, #footerTop h2 {color: #FFF;}
+    #footerTop ul {padding: 0px;}
+    #footerTop ul li {list-style: none;}
+}
+
+@media screen and (max-width:451px) {
+    .topBar > div {width: 97%;}
+    .fixedWidth {width: 95%;}
+}
+
+@media screen and (max-width:360px) {
+    .fixedWidth {padding: 0; }
+}
+
+@media (min-width: 1150px) {
+    .navbar-expand-custom {flex-direction: row; flex-wrap: nowrap; justify-content: flex-start;}
+    .navbar-expand-custom .navbar-nav {flex-direction: row;}
+    .navbar-expand-custom .navbar-nav .nav-link {padding-right: .5rem; padding-left: .5rem;}
+    .navbar-expand-custom .navbar-collapse {display: flex!important;}
+    .navbar-expand-custom .navbar-toggler {display: none;}
+}
