@@ -1,23 +1,37 @@
 body {font-size: 112.15%;}
 
-#header {background: url('../images/costa-rica-nature.jpg') no-repeat center center fixed; background-size: cover;}
-
-/* Estilos Compartidos */
-
-
-
 .contenedor img {padding: 10px; background: rgb(240, 240, 240);}
 .aligncenter {display:block; margin: 10px auto; width: 95%; }
 .leerMas {display: block; width: 65px; height: 19px; background: url('../images/leermas.png') no-repeat top left; }
 .leerMas:hover, .leerMas:active {background-position-y: -19px;}
 
-.mainBar {background: rgba(37, 53, 38, 0.3);}
+.mainBar {background:url('../images/costa-rica-nature.jpg') no-repeat center center fixed; background-color:rgba(37, 53, 38, 0.3); background-size: cover; }
 .fixedbar {position: fixed; top: 0; width: 100%; background-color: rgb(37, 53, 38, 1);}
 
 #content {background: #FFF;}
 .texto a {color:#458145; text-decoration: none;}
 .texto a:hover {color:#104610; text-decoration: underline;}
 .texto a.bookMe {color: #000; margin: 35px auto;}
+.texto a[href^="/reserve"] {
+    display: block;
+    border: 2px solid#FFF;
+    box-shadow: 2px 2px 4px#666;
+    border-radius: 12px;
+    padding: 10px 0;
+    background:rgba(255, 153, 51, 0.9); width: 250px; margin: 0 auto;
+    font-size: 1.5ssrem;
+    color:#FFF;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 1px 1px 1px #111;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.texto a[href^="/reserve"]:hover {
+    background:rgba(255, 153, 51, 0.7);
+}
+
 h1 {font-size:1.75rem; color:#669966; margin-bottom:2rem;}
 h2 {font-size:1.5rem; margin-bottom: 1.5rem;}
 h3 {font-size:1.2rem; font-weight: 700;}
