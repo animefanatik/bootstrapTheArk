@@ -50,8 +50,33 @@ h3 {font-size:1.2rem; font-weight: 700;}
 .bookExp {margin: 0 auto; background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; text-transform: uppercase; }
 .bookExp:hover, .bookExp:active {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
 
+/*WooChechout */
+.woocommerce-checkout {display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr;}
+.woocommerce .col2-set .col-1, .woocommerce .col2-set .col-2 {width: unset; max-width: unset !important; float: none;}
+.woocommerce .col2-set .col-1 {grid-column-start: 1; grid-column-end: 1;}
+.woocommerce .col2-set .col-2 {display: none;}
+.woocommerce .col2-set .woocommerce-checkout-review-order {grid-column-start: 2; grid-column-end: 2;}
+.woocommerce-billing-fields .form-row {display: block; width: 100%;}
+.woocommerce-input-wrapper {display: block; width: 100%;}
+#order_review_heading {display: none;}
+/*#ship-to-different-address, .woocommerce-shipping-fields, .woocommerce-additional-fields*/
+.woocommerce-checkout-review-order {width: 90%; margin: 0 auto;}
+.woocommerce-checkout-review-order-table {background:#FFF;}
+.woocommerce-checkout .woocommerce-shipping-methods {font-weight: normal; font-size: 12px;}
+.woocommerce-checkout .wc_payment_method {list-style: none;}
+
+.wc-block-grid__product-add-to-cart a {margin: 0 auto;}
+
+
+
 
 /* responsive */
 @media screen and (max-width:451px) {
     #content .btn {font-size: 1.6rem; padding: 10px; width: 80%; line-height: 2rem;}
+}
+
+@media screen and (max-width:761px) {
+    .woocommerce-checkout {grid-template-columns: 1fr;}
+    #order_review_heading {display: block; margin: 1.5rem 0 1rem;}
+    
 }
