@@ -32,7 +32,7 @@ while($new_query -> have_posts()) : $new_query -> the_post();
                 </a>
 <?php endwhile; ?>            
             </div>
-            <a href="/reservar" id="expRes" class="btn btn-link fw7">RESERVE YOUR EXPERIENCE</a>
+            <a href="/reserve" id="expRes" class="btn btn-link fw7">RESERVE YOUR EXPERIENCE</a>
         </div>
         <div id="map" class="ptpb">
             <div class="fixedWidth d-flex align-items-center row">

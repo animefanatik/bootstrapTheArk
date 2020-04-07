@@ -9,9 +9,8 @@
     <?php wp_head(); ?>
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css">
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/css/general.css">
-<?php if ( is_front_page() && is_home() ) { ?>
+<?php if ( is_front_page() || is_home() ) { ?>
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/css/theArk.css">
-    <meta name="description" content="Botanical Garden in the Mountains of Costa Rica">
 <?php } else { ?>
     <link rel="stylesheet" media="all" href="<?php echo get_template_directory_uri(); ?>/css/internal.css">
 <?php } ?>
