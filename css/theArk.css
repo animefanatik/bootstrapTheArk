@@ -22,6 +22,7 @@ body {font-size: 112.15%; background: url('../images/botanical-garden.jpg') no-r
 .expRes {opacity: 0;}
 #exp .btn {background: rgba(255, 153, 51, 0.9); text-shadow: 1px 1px 1px #666; }
 #exp .btn:hover {background: rgba(252, 125, 21, 0.5); text-decoration: none; color: #FFF; }
+p.mktext {margin-bottom: 3rem;}
 
 #map {background: url(../images/costa-rica-nature.jpg) no-repeat center center fixed; overflow: hidden; background-size:cover; color: #FFF;}
 #map h2 {font-size: 1.4rem;}
