@@ -32,6 +32,7 @@ while($new_query -> have_posts()) : $new_query -> the_post();
                 </a>
 <?php endwhile; ?>            
             </div>
+            <p class="mktext fixedWidth">You can visit The Ark and hire a guided tour with our expert botanical guides, or you can simply come and visit the botanical garden and explore the multiple trails, plant collections by type or by use and enjoy the incredible themed terraces.</p>
             <a href="/reserve" id="expRes" class="btn btn-link fw7">RESERVE YOUR EXPERIENCE</a>
         </div>
         <div id="map" class="ptpb">
