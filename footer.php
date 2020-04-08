@@ -44,13 +44,13 @@
         <div id="copy" class="fw7">© Ark Herb Farm. All rights reserved.</div>
     </div>
     <?php wp_footer(); ?>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.waypoints.min.js"></script>
+    <script async src="<?php echo get_template_directory_uri(); ?>/js/jquery.js"></script>
+    <script async src="<?php echo get_template_directory_uri(); ?>/js/bootstrap.js"></script>
+    <script async src="<?php echo get_template_directory_uri(); ?>/js/jquery.waypoints.min.js"></script>
 <?php if ( is_front_page() || is_home() ) { ?>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/custom-main.js"></script>
+    <script async src="<?php echo get_template_directory_uri(); ?>/js/custom-main.js"></script>
 <?php } else { ?>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/custom-general.js"></script>
+    <script async src="<?php echo get_template_directory_uri(); ?>/js/custom-general.js"></script>
 <?php } ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-16071381-7"></script>
